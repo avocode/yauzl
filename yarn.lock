@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@avocode/buffer-crc32@~0.2.13-avocode":
+  version "0.2.13-avocode"
+  resolved "https://registry.yarnpkg.com/@avocode/buffer-crc32/-/buffer-crc32-0.2.13-avocode.tgz#87e9b7eb28a6b7151f95ebf542485686fb3649c4"
+  integrity sha512-zMwkRCmHOwyzqZrMuzDFo4LcdaC9KCjPFuDr8usrwdGPsEKXNZW62wOzOQyGkGrg40hns559IsheMATto7aVig==
+
+"@avocode/fd-slicer@~1.1.0-avocode":
+  version "1.1.0-avocode"
+  resolved "https://registry.yarnpkg.com/@avocode/fd-slicer/-/fd-slicer-1.1.0-avocode.tgz#eb75669070e4ce285d2e90d4032882b37036a2dd"
+  integrity sha512-hiPmXqBQ2DaFMoLEaQdjv0Gk8kbbN2xiEMNMa+MkU2UzhMOxP8/O7bzKmCVB+BmKO0W+lrT/C1axtCnBeuY16Q==
+  dependencies:
+    pend "~1.2.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -48,11 +60,6 @@ brace-expansion@^1.0.0, brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
-
-buffer-crc32@~0.2.3:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
-  integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
 
 commander@~2.20.0:
   version "2.20.0"
@@ -115,13 +122,6 @@ fast-levenshtein@~1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-1.0.7.tgz#0178dcdee023b92905193af0959e8a7639cfdcb9"
   integrity sha1-AXjc3uAjuSkFGTrwlZ6KdjnP3Lk=
-
-fd-slicer@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
-  integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
-  dependencies:
-    pend "~1.2.0"
 
 fileset@0.2.x:
   version "0.2.1"

@@ -3,8 +3,8 @@ function create(options) {
 
   var fs = options.fs || require("fs");
   var zlib = options.zlib || require("zlib");
-  var fd_slicer = options.fd_slicer || require("fd-slicer").create(options);
-  var crc32 = options.bufferCrc32 || require("buffer-crc32").create(options);
+  var fd_slicer = options.fd_slicer || require("@avocode/fd-slicer").create(options);
+  var crc32 = options.bufferCrc32 || require("@avocode/buffer-crc32").create(options);
   var util = require("util");
   var EventEmitter = options.events || require("events").EventEmitter;
   var Transform = options.stream ? options.stream.Transform : require("stream").Transform;
