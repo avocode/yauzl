@@ -1,6 +1,6 @@
 var fs = require("fs");
 var path = require("path");
-var yauzl = require("../");
+var yauzl = require("../").create();
 var util = require("util");
 var Readable = require("stream").Readable;
 var Writable = require("stream").Writable;

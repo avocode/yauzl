@@ -1,4 +1,4 @@
-var yauzl = require("../");
+var yauzl = require("../").create();
 var PassThrough = require("stream").PassThrough;
 var util = require("util");
 var Pend = require("pend");

@@ -1,4 +1,4 @@
-var yauzl = require("../");
+var yauzl = require("../").create();
 var zip64 = require("./zip64");
 var rangeTest = require("./range-test");
 var fs = require("fs");
