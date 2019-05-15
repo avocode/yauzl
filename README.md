@@ -21,6 +21,10 @@ Design principles:
  * Catch unsafe file names.
    See `validateFileName()`.
 
+## Avocode fork :warning:
+
+See more in [@avocode/yazl repository](https://github.com/avocode/yazl#avocode-fork-warning).
+
 ## Usage
 
 ```js
