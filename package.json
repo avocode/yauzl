@@ -1,6 +1,6 @@
 {
-  "name": "yauzl",
-  "version": "2.10.0",
+  "name": "@avocode/yauzl",
+  "version": "2.10.0-avocode",
   "description": "yet another unzip library for node",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thejoshwolfe/yauzl.git"
+    "url": "git@github.com:avocode/yauzl.git"
   },
   "keywords": [
     "unzip",
@@ -22,9 +22,9 @@
   "author": "Josh Wolfe <thejoshwolfe@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thejoshwolfe/yauzl/issues"
+    "url": "https://github.com/avocode/yauzl/issues"
   },
-  "homepage": "https://github.com/thejoshwolfe/yauzl",
+  "homepage": "https://github.com/avocode/yauzl",
   "dependencies": {
     "fd-slicer": "~1.1.0",
     "buffer-crc32": "~0.2.3"
