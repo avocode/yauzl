@@ -1,6 +1,6 @@
 {
   "name": "@avocode/yauzl",
-  "version": "2.10.0-avocode",
+  "version": "2.10.0-avocode.2",
   "description": "yet another unzip library for node",
   "main": "index.js",
   "scripts": {
