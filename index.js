@@ -7,6 +7,7 @@ function create(options) {
   var crc32 = options.bufferCrc32 || require("@avocode/buffer-crc32").create(options);
   var util = require("util");
   var EventEmitter = options.events || require("events").EventEmitter;
+  var Buffer = options.Buffer || Buffer;
   var Transform = options.stream ? options.stream.Transform : require("stream").Transform;
   var PassThrough = options.stream ? options.stream.PassThrough : require("stream").PassThrough;
   var Writable = options.stream ? options.stream.Writable : require("stream").Writable;
